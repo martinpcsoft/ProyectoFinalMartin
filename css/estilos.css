@@ -151,17 +151,44 @@ a.nav-link {
   left: 50%;
   border-radius: 10px; }
 
-/* Servicios*/
-.servicios h3 {
-  font-weight: bold; }
+/* Servicios
 
-.container-card {
-  margin: 8rem;
-  padding: 10px; }
 
-.principal {
-  margin-top: 10rem;
-  font-family: 'Ubuntu'; }
+.servicios h3{
+font-weight: bold;
+}
+.container-card{
+    margin:8rem;
+    padding:10px;
+}
+
+.principal{
+    
+    margin-top:10rem;
+    font-family: 'Ubuntu';
+}
+*/
+/* services */
+.services {
+  padding-top: 10rem; }
+
+.services .icon-box {
+  padding: 33px 25px;
+  text-align: center;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.5s; }
+
+.services .icon-box:hover {
+  box-shadow: 0px 15px 30px; }
+
+.services .icon-box .icon i {
+  color: #FCAB44;
+  font-size: 43px; }
+
+.services .icon-box h4 {
+  margin-bottom: 15px;
+  color: #FC562C; }
 
 /*tarjeta 1*/
 .card-header-first {
@@ -193,21 +220,38 @@ a.nav-link {
   background-clip: border-box; }
 
 /* Ultimos proyectos*/
-.ultimos-proyectos {
-  background: #424141;
-  color: #fff; }
+main .portafolio {
+  background: #f0f3f5;
+  padding: 60px 0; }
 
-.ultimos-proyectos a {
-  display: block;
-  overflow: hidden;
-  margin-bottom: 1.5rem; }
+main .portafolio .portafolio-textos {
+  text-align: center;
+  margin-bottom: 60px;
+  color: #2d3950;
+  font-size: 20px; }
 
-.ultimos-proyectos img {
-  transition: all .3s ease;
-  min-width: 100%; }
+.portafolio .portafolio-textos p {
+  color: #909090;
+  font-size: 15px;
+  margin: 20px 0 0 0; }
 
-.ultimos-proyectos a:hover img {
-  transform: scale(1.5); }
+.portafolio .galeria {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.portafolio .galeria .fotos {
+  width: 30%;
+  margin-bottom: 20px; }
+
+.portafolio .galeria .fotos img {
+  width: 100%;
+  height: 210px;
+  border-radius: 5px; }
+
+.portafolio .galeria .fotos img:hover {
+  opacity: .6;
+  cursor: pointer; }
 
 /*Contacto*/
 .imgContacto {
