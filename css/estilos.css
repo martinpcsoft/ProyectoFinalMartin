@@ -21,7 +21,7 @@ html {
   background: rgba(0, 0, 0, 0.2); }
 
 .navbar-fixed-top {
-  background: linear-gradient(to bottom, #f12711, #f5af19); }
+  background: linear-gradient(to right, #373b44, #4286f4); }
 
 .logo {
   height: 90px;
@@ -152,10 +152,6 @@ a.nav-link {
   border-radius: 10px; }
 
 /* Servicios*/
-.servicios .fa {
-  color: #F05F40;
-  font-size: 6rem; }
-
 .servicios h3 {
   font-weight: bold; }
 
@@ -244,5 +240,8 @@ a.nav-link {
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.6); } }
+/* Formulario de contacto*/
+.contacto-box {
+  background: black; }
 
 /*# sourceMappingURL=estilos.css.map */
